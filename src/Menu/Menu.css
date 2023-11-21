@@ -1,0 +1,17 @@
+.menu-wrap {
+  z-index: 1;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-bottom: 1px dotted rgb(55, 0, 255);
+}
+
+.menu-link {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  display: inline-block;
+  padding: 0 40px;
+  transition: ease-out all 600ms;
+}

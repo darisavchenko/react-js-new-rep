@@ -1,8 +1,11 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+}
+
+.page-wrap {
   text-align: center;
+  max-width: 1280px;
+  padding: 2rem;
 }
 
 .logo {
@@ -43,5 +46,5 @@
 
 .card-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }

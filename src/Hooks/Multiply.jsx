@@ -12,7 +12,7 @@ export function Multiply() {
   }, [inputNumber]);
 
   return (
-    <div>
+    <div className="page-wrap">
       <input onChange={(e) => setInputNumber(e.target.value)} type="text" />
       <p>
         You entered {inputNumber}. Multiplied by 2 that equals {equals}

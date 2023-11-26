@@ -15,7 +15,7 @@ export function Hooks() {
   , [Bedingung]*/
 
   return (
-    <div>
+    <div className="page-wrap">
       <button onClick={() => setSelectedButton(1)}>1</button>
       <button onClick={() => setSelectedButton(2)}>2</button>
       <button onClick={() => setSelectedButton(3)}>3</button>

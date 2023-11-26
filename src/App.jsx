@@ -3,29 +3,16 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { Hello } from "./Hello";
-import { Card } from "./Card/Card";
-import { Hooks } from "./Hooks/Hooks";
-import { Multiply } from "./Hooks/Multiply";
-import { Menu } from "./Menu/Menu";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Menu />
       <div className="page-wrap">
-        <Multiply />
-        <Hooks />
-        {/*<Hooks />*/}
         <Hello name={"World"} frage={"how's it going?"} />
         <Hello name={"Earth"} />
         <Hello name={"Sun"} />
-
-        <div className="card-container">
-          <Card image={reactLogo} title={"React"} link={"https://react.dev/"} />
-          <Card image={viteLogo} title={"Vite"} link={"https://vitejs.dev/"} />
-        </div>
 
         <div>
           <a href="https://vitejs.dev">

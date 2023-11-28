@@ -17,6 +17,9 @@ export function Menu() {
         <Link to="/card" className="menu-link">
           Cards
         </Link>
+        <Link to="/urlaub" className="menu-link">
+          Urlaub
+        </Link>
       </div>
       <Outlet />
     </>

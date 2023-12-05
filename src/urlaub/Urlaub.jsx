@@ -17,7 +17,7 @@ export function Urlaub() {
             }}
             className={image === tropical ? "active-button" : ""}
           >
-            {" "}
+            {/* if image is tropical choose className="active-button", else: className="" */}
             {/* => is an arrow funktion - it is needed here for the fuction to be executed only on click and each milisecond the page is being rendered */}
             Tropical Iseland
           </button>

@@ -20,6 +20,9 @@ export function Menu() {
         <Link to="/urlaub" className="menu-link">
           Urlaub
         </Link>
+        <Link to="/currency" className="menu-link">
+          Currency
+        </Link>
       </div>
       <Outlet />
     </>

@@ -23,6 +23,9 @@ export function Menu() {
         <Link to="/currency" className="menu-link">
           Currency
         </Link>
+        <Link to="/months" className="menu-link">
+          Months
+        </Link>
       </div>
       <Outlet />
     </>

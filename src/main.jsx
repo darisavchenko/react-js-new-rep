@@ -8,6 +8,7 @@ import { Hooks } from "./Hooks/Hooks";
 import { Multiply } from "./Hooks/Multiply";
 import { Urlaub } from "./urlaub/Urlaub";
 import { Currency } from "./Currency/Currency";
+import { Months } from "./Months/Months";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -22,6 +23,7 @@ const router = createBrowserRouter([
       { path: "/card", element: <Cards /> },
       { path: "/urlaub", element: <Urlaub /> },
       { path: "/currency", element: <Currency /> },
+      { path: "/months", element: <Months /> },
     ],
   },
 ]);

@@ -26,6 +26,9 @@ export function Menu() {
         <Link to="/months" className="menu-link">
           Months
         </Link>
+        <Link to="/mui" className="menu-link">
+          Mui
+        </Link>
       </div>
       <Outlet />
     </>

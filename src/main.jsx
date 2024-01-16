@@ -9,6 +9,7 @@ import { Multiply } from "./Hooks/Multiply";
 import { Urlaub } from "./urlaub/Urlaub";
 import { Currency } from "./Currency/Currency";
 import { Months } from "./Months/Months";
+import { Mui } from "./Mui/Mui";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
       { path: "/urlaub", element: <Urlaub /> },
       { path: "/currency", element: <Currency /> },
       { path: "/months", element: <Months /> },
+      { path: "/mui", element: <Mui /> },
     ],
   },
 ]);
